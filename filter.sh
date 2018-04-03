@@ -30,10 +30,10 @@ fi
 #==============================================================================
 # RUN KESTREL
 if [[ "$RUN_KESTREL" -eq "1" ]]; then
-  ./KESTREL -v -l 36 -t 0.5 -n 10 -O DV1.fq V1.fa ~/DATABASE/DENISOVA/DENI
-  ./KESTREL -v -l 36 -t 0.5 -n 10 -O DV2.fq V2.fa ~/DATABASE/DENISOVA/DENI
-  ./KESTREL -v -l 36 -t 0.5 -n 10 -O DV3.fq V3.fa ~/DATABASE/DENISOVA/DENI
-  ./KESTREL -v -l 36 -t 0.5 -n 10 -O DV4.fq V4.fa ~/DATABASE/DENISOVA/DENI
+  ./KESTREL -v -l 36 -t 0.5 -n 10 -o DV1.fq V1.fa ~/DATABASE/DENISOVA/DENI
+  ./KESTREL -v -l 36 -t 0.5 -n 10 -o DV2.fq V2.fa ~/DATABASE/DENISOVA/DENI
+  ./KESTREL -v -l 36 -t 0.5 -n 10 -o DV3.fq V3.fa ~/DATABASE/DENISOVA/DENI
+  ./KESTREL -v -l 36 -t 0.5 -n 10 -o DV4.fq V4.fa ~/DATABASE/DENISOVA/DENI
 fi
 #==============================================================================
 

@@ -167,7 +167,7 @@ gnuplot << EOF
   set output "Prof_V1.pdf"
   set auto
   set size ratio 0.08
-  set key
+  unset key
   set yrange [0:2.1]
   set ytics 1
   unset grid 
@@ -185,7 +185,7 @@ gnuplot << EOF
   set output "Prof_V2.pdf"
   set auto
   set size ratio 0.08
-  set key
+  unset key
   set yrange [0:2.1]
   set ytics 1
   unset grid 
@@ -203,7 +203,7 @@ gnuplot << EOF
   set output "Prof_V3.pdf"
   set auto
   set size ratio 0.08
-  set key
+  unset key
   set yrange [0:2.1]
   set ytics 1
   unset grid 
@@ -221,7 +221,7 @@ gnuplot << EOF
   set output "Prof_V4.pdf"
   set auto
   set size ratio 0.08
-  set key
+  unset key
   set yrange [0:2.1]
   set ytics 1
   unset grid 
@@ -241,7 +241,7 @@ gnuplot << EOF
   set output "Prof_V1_self.pdf"
   set auto
   set size ratio 0.08
-  set key
+  unset key
   set yrange [0:2.1]
   set ytics 1
   unset grid 
@@ -259,7 +259,7 @@ gnuplot << EOF
   set output "Prof_V2_self.pdf"
   set auto
   set size ratio 0.08
-  set key
+  unset key
   set yrange [0:2.1]
   set ytics 1
   unset grid 
@@ -277,7 +277,7 @@ gnuplot << EOF
   set output "Prof_V3_self.pdf"
   set auto
   set size ratio 0.08
-  set key
+  unset key
   set yrange [0:2.1]
   set ytics 1
   unset grid 
@@ -295,7 +295,7 @@ gnuplot << EOF
   set output "Prof_V4_self.pdf"
   set auto
   set size ratio 0.08
-  set key
+  unset key
   set yrange [0:2.1]
   set ytics 1
   unset grid 
